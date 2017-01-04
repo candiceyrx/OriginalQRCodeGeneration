@@ -1,0 +1,2 @@
+# OriginalQRCodeGeneration
+利用系统原生AVFoudation生成不同风格的二维码，可引入项目中直接使用。
