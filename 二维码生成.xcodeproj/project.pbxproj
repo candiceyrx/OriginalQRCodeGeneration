@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324BECD71E0396E600AE9161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BECD61E0396E600AE9161 /* main.m */; };
+		324BECDA1E0396E600AE9161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BECD91E0396E600AE9161 /* AppDelegate.m */; };
+		324BECDD1E0396E600AE9161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BECDC1E0396E600AE9161 /* ViewController.m */; };
+		324BECE01E0396E600AE9161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324BECDE1E0396E600AE9161 /* Main.storyboard */; };
+		324BECE21E0396E600AE9161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324BECE11E0396E600AE9161 /* Assets.xcassets */; };
+		324BECE51E0396E600AE9161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324BECE31E0396E600AE9161 /* LaunchScreen.storyboard */; };
+		324BECED1E03972000AE9161 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324BECEC1E03972000AE9161 /* CoreImage.framework */; };
+		324BECF01E03B68C00AE9161 /* UIImage+GenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BECEF1E03B68C00AE9161 /* UIImage+GenerateQRCode.m */; };
+		324BECF31E03D16800AE9161 /* UIImage+RoundRectImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BECF21E03D16800AE9161 /* UIImage+RoundRectImage.m */; };
+		324BECFE1E03DCA100AE9161 /* cesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 324BECFC1E03DCA100AE9161 /* cesi.png */; };
+		324BECFF1E03DCA100AE9161 /* whiteBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324BECFD1E03DCA100AE9161 /* whiteBG@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324BECD21E0396E600AE9161 /* 二维码生成.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码生成.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		324BECD61E0396E600AE9161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		324BECD81E0396E600AE9161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		324BECD91E0396E600AE9161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		324BECDB1E0396E600AE9161 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		324BECDC1E0396E600AE9161 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		324BECDF1E0396E600AE9161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		324BECE11E0396E600AE9161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324BECE41E0396E600AE9161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		324BECE61E0396E600AE9161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324BECEC1E03972000AE9161 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		324BECEE1E03B68C00AE9161 /* UIImage+GenerateQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GenerateQRCode.h"; sourceTree = "<group>"; };
+		324BECEF1E03B68C00AE9161 /* UIImage+GenerateQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GenerateQRCode.m"; sourceTree = "<group>"; };
+		324BECF11E03D16800AE9161 /* UIImage+RoundRectImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundRectImage.h"; sourceTree = "<group>"; };
+		324BECF21E03D16800AE9161 /* UIImage+RoundRectImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundRectImage.m"; sourceTree = "<group>"; };
+		324BECFC1E03DCA100AE9161 /* cesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cesi.png; path = "../../../Downloads/iOS原生二维码生成扫描/生成二维码用到的图片/cesi.png"; sourceTree = "<group>"; };
+		324BECFD1E03DCA100AE9161 /* whiteBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteBG@2x.png"; path = "../../../Downloads/iOS原生二维码生成扫描/生成二维码用到的图片/whiteBG@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324BECCF1E0396E600AE9161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BECED1E03972000AE9161 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324BECC91E0396E600AE9161 = {
+			isa = PBXGroup;
+			children = (
+				324BECEC1E03972000AE9161 /* CoreImage.framework */,
+				324BECD41E0396E600AE9161 /* 二维码生成 */,
+				324BECD31E0396E600AE9161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324BECD31E0396E600AE9161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324BECD21E0396E600AE9161 /* 二维码生成.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324BECD41E0396E600AE9161 /* 二维码生成 */ = {
+			isa = PBXGroup;
+			children = (
+				324BECD81E0396E600AE9161 /* AppDelegate.h */,
+				324BECD91E0396E600AE9161 /* AppDelegate.m */,
+				324BECDB1E0396E600AE9161 /* ViewController.h */,
+				324BECDC1E0396E600AE9161 /* ViewController.m */,
+				324BECEE1E03B68C00AE9161 /* UIImage+GenerateQRCode.h */,
+				324BECEF1E03B68C00AE9161 /* UIImage+GenerateQRCode.m */,
+				324BECF11E03D16800AE9161 /* UIImage+RoundRectImage.h */,
+				324BECF21E03D16800AE9161 /* UIImage+RoundRectImage.m */,
+				324BECDE1E0396E600AE9161 /* Main.storyboard */,
+				324BECE11E0396E600AE9161 /* Assets.xcassets */,
+				324BECE31E0396E600AE9161 /* LaunchScreen.storyboard */,
+				324BECE61E0396E600AE9161 /* Info.plist */,
+				324BECD51E0396E600AE9161 /* Supporting Files */,
+			);
+			path = "二维码生成";
+			sourceTree = "<group>";
+		};
+		324BECD51E0396E600AE9161 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				324BECFC1E03DCA100AE9161 /* cesi.png */,
+				324BECFD1E03DCA100AE9161 /* whiteBG@2x.png */,
+				324BECD61E0396E600AE9161 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324BECD11E0396E600AE9161 /* 二维码生成 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324BECE91E0396E600AE9161 /* Build configuration list for PBXNativeTarget "二维码生成" */;
+			buildPhases = (
+				324BECCE1E0396E600AE9161 /* Sources */,
+				324BECCF1E0396E600AE9161 /* Frameworks */,
+				324BECD01E0396E600AE9161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二维码生成";
+			productName = "二维码生成";
+			productReference = 324BECD21E0396E600AE9161 /* 二维码生成.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324BECCA1E0396E600AE9161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘灵";
+				TargetAttributes = {
+					324BECD11E0396E600AE9161 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L54BPHQ9P8;
+					};
+				};
+			};
+			buildConfigurationList = 324BECCD1E0396E600AE9161 /* Build configuration list for PBXProject "二维码生成" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324BECC91E0396E600AE9161;
+			productRefGroup = 324BECD31E0396E600AE9161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324BECD11E0396E600AE9161 /* 二维码生成 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324BECD01E0396E600AE9161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BECFF1E03DCA100AE9161 /* whiteBG@2x.png in Resources */,
+				324BECE51E0396E600AE9161 /* LaunchScreen.storyboard in Resources */,
+				324BECE21E0396E600AE9161 /* Assets.xcassets in Resources */,
+				324BECE01E0396E600AE9161 /* Main.storyboard in Resources */,
+				324BECFE1E03DCA100AE9161 /* cesi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324BECCE1E0396E600AE9161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BECF01E03B68C00AE9161 /* UIImage+GenerateQRCode.m in Sources */,
+				324BECDD1E0396E600AE9161 /* ViewController.m in Sources */,
+				324BECDA1E0396E600AE9161 /* AppDelegate.m in Sources */,
+				324BECD71E0396E600AE9161 /* main.m in Sources */,
+				324BECF31E03D16800AE9161 /* UIImage+RoundRectImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		324BECDE1E0396E600AE9161 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324BECDF1E0396E600AE9161 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		324BECE31E0396E600AE9161 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324BECE41E0396E600AE9161 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		324BECE71E0396E600AE9161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		324BECE81E0396E600AE9161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		324BECEA1E0396E600AE9161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "二维码生成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartdot.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		324BECEB1E0396E600AE9161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "二维码生成/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartdot.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324BECCD1E0396E600AE9161 /* Build configuration list for PBXProject "二维码生成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324BECE71E0396E600AE9161 /* Debug */,
+				324BECE81E0396E600AE9161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324BECE91E0396E600AE9161 /* Build configuration list for PBXNativeTarget "二维码生成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324BECEA1E0396E600AE9161 /* Debug */,
+				324BECEB1E0396E600AE9161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324BECCA1E0396E600AE9161 /* Project object */;
+}
